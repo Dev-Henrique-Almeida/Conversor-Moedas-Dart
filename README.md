@@ -1,14 +1,16 @@
-# Conversor de Moedas
+# conversor_moeda
 
-## Sobre o Projeto
-Projeto que consiste em criar um sistema de conversor de moedas, sendo elas real, dólar, euro, bitcoin. 
-O projeto tem como intuito pôr em prática tudo o que foi estudado ao longo da semana.
+A new Flutter project.
 
-## Tecnologias
-*   Flutter 3.10.5
-*   Dart 3.0.5
-*   Android Studio 2022.2
-  
+## Getting Started
 
-## Como usar 
-Para rodar o sistema é simples, basta acessar a main e dar "Run Debugging" ou simplesmente apertar "F5".
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

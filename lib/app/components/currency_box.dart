@@ -8,7 +8,7 @@ class CurrencyBox extends StatelessWidget {
 
   final CurrencyModel selectedItem;
 
-  CurrencyBox({
+  const CurrencyBox({
     Key? key,
     required this.items,
     required this.controller,

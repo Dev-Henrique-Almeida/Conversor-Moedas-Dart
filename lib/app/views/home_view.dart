@@ -3,6 +3,8 @@ import 'package:conversor_moeda/app/controllers/home_controller.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatefulWidget {
+  const HomeView({super.key});
+
   @override
   State<HomeView> createState() => _HomeViewState();
 }
@@ -40,16 +42,16 @@ class _HomeViewState extends State<HomeView> {
               children: [
                 ClipOval(
                   child: Image.asset(
-                    'assets/images/logo.png',
-                    width: 120,
-                    height: 120,
+                    'assets/images/logo1.png',
+                    width: 170,
+                    height: 170,
                   ),
                 ),
                 const SizedBox(
                   height: 20,
                 ),
                 const Text(
-                  'Valores referentes á 17/06/23',
+                  'Valores referentes á 19/06/23',
                   style: TextStyle(fontSize: 15),
                 ),
                 const SizedBox(
@@ -84,7 +86,8 @@ class _HomeViewState extends State<HomeView> {
                   height: 50,
                 ),
                 ElevatedButton(
-                  style: ElevatedButton.styleFrom(primary: Colors.amber),
+                  style:
+                      ElevatedButton.styleFrom(backgroundColor: Colors.amber),
                   onPressed: () {
                     homeController.convert();
                   },
